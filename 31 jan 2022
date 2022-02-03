@@ -1,0 +1,118 @@
+//1.Write a program to print the product of the decimal and int numbers ex: 8.2 and 6
+
+
+import java.util.*;
+public class diff_datatypes_multiply {
+
+	public static void main(String[] args) {
+
+		System.out.println("Enter the interger value");
+		Scanner sc = new Scanner(System.in);
+		
+		int a = sc.nextInt();
+		
+		System.out.println("Enter the float value");
+		float b = sc.nextFloat();
+		
+		System.out.println(a*b);
+	}
+
+}
+
+
+
+
+//2.Print the ASCII value of any character user proides
+
+
+public class PrintAsciiValues
+{  
+public static void main(String[] args)   
+{  
+ 
+char ch1 = 'a';  
+char ch2 = 'b';  
+  
+int asciivalue1 = ch1;  
+int asciivalue2 = ch2;  
+System.out.println("The Ascii value of " + ch1 + " is: " + asciivalue1);  
+System.out.println("The Ascii value of " + ch2 + " is: " + asciivalue2);  
+}  
+}
+
+
+//3.Write a program to add 3 to the ASCII value of the any character user proides  and print the equivalent character.
+
+
+import java.util.Scanner;
+
+public class add_three_to_ascii_of_a_charater {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the character");
+        char ch=sc.nextLine().charAt(0);
+        System.out.println("enter the  value you want to add in the ascii value of this character");
+        int num=sc.nextInt();
+        int value=ch+num;
+        char result=(char)value;
+        System.out.println(result);
+
+    }
+}
+
+//4.Write a Java program to convert temperature from Fahrenheit to Celsius degree.
+
+
+import java.util.Scanner;
+
+public class celcius_to_fahreniet {
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        System.out.println("enter the temperature in fernite");
+        int a= sc.nextInt();
+        double b= (a-32)/1.8;
+
+        System.out.println("celcius value of this fernite value is  "+b);
+    }
+}
+
+
+//5. Write a Java program that reads a number in inches, converts it to meters.
+
+import java.util.Scanner;
+
+public class inches_to_meter {
+    public static void main(String[] args) {
+        Scanner sc =new Scanner(System.in);
+        System.out.println("enter the value in inches");
+        double a=sc.nextInt();
+        System.out.println("result in meter");
+        double b=a/40;
+        System.out.println(b);
+    }
+}
+
+
+//6. Write a Java program to convert minutes into a number of years and days.
+
+
+import java.util.Scanner;
+
+public class convert_minute_into_year_and_days {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the value in minute");
+        int a= sc.nextInt();
+        int day=a/1440;
+        if(day>=365){
+            int year=day/365;
+            day=day%365;
+            System.out.println("in "+a+" minutes there is "+year+" year and "+day+" days");
+        }
+        else {
+            System.out.println("there is "+day+" days");
+        }
+    }
+}
+7. Take String input as Name of the city and convert it to reverse string and show on the console.
+8. Check if a string is pallindrome or not. eg. input : ABCBA "
