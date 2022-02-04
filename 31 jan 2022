@@ -138,5 +138,32 @@ public class MyClass {
  
 //8. Check if a string is pallindrome or not. eg. input : ABCBA "
 
+public class MyClass {
+    public static void main (String[] args) {
+       
+        String str= "ABCBA", ulta ="";
+        char ch;
+       
+      System.out.println("Original word: " + str);
+      
+       
+      for (int i=0; i<str.length(); i++)
+      {
+        ch= str.charAt(i); 
+        ulta= ch+ulta; 
+      }
+      System.out.println("Reversed word: "+ ulta);
+      {
+          if(str.equals(ulta)){
+              System.out.println("it is a palindrome");
+              
+          } 
+          else
+           System.out.println("it is  not a palindrome");
+          
+      }
+    }
+}
+
 
 
