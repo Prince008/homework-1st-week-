@@ -114,5 +114,29 @@ public class convert_minute_into_year_and_days {
         }
     }
 }
-7. Take String input as Name of the city and convert it to reverse string and show on the console.
-8. Check if a string is pallindrome or not. eg. input : ABCBA "
+
+
+//7. Take String input as Name of the city and convert it to reverse string and show on the console.
+
+public class MyClass {
+    public static void main (String[] args) {
+       
+        String str= "Name of the city", ulta ="";
+        char ch;
+       
+      System.out.println("Original word: " + str);
+      
+       
+      for (int i=0; i<str.length(); i++)
+      {
+        ch= str.charAt(i); 
+        ulta= ch+ulta; 
+      }
+      System.out.println("Reversed word: "+ ulta);
+    }
+}
+ 
+//8. Check if a string is pallindrome or not. eg. input : ABCBA "
+
+
+
