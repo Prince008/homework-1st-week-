@@ -1,0 +1,65 @@
+ 1. Length and breadth of a rectangle are 5 and 7 respectively. Write a program to calculate the area and perimeter of the rectangle.
+
+
+public class Area_perimeter_rectangle {
+
+	public static void main(String[] args) {
+		
+		int l = 5;
+		int b = 7;
+		
+		int area_of_rectangle = l*b ;
+		
+		int perimeter_rectangle = 2*(l+b);
+		
+		System.out.println(area_of_rectangle);
+		
+		System.out.println(perimeter_rectangle);
+		
+	}
+
+}
+
+
+2.
+Write a program to calculate the perimeter of a triangle having sides of length 2,3 and 5 units.
+
+public class perimeter_traingle {
+
+	public static void main(String[] args) {
+		
+		int a = 2, b = 3 , c = 5;
+		
+		int perimeter_of_triangle = a + b + c;
+		
+		System.out.println("The perimeter of given triangle is :" + perimeter_of_triangle);
+
+	}
+
+}
+
+
+
+3. Write a program to check if the two numbers 23 and 45 are equal.
+
+public class if_else {
+
+	public static void main(String[] args) {
+            int a = 23;
+		int b = 45;
+		
+		if( a == b)
+		{
+			System.out.println("a is equal to b");
+		}
+		
+		else {
+			System.out.println("a is not equal to b");
+			
+		}
+			
+	}
+
+}
+
+
