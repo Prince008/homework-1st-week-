@@ -16,5 +16,3 @@ public class numberofdigits {
 }
 
 
-//Apply do while loop to calculat factorial of a number such that, program asks  user, if he wants to continue, if yes, program should run again
-WAP to creat a fuction that check if no. is odd or even. call this function from main method"
